@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!--LLamada a bootstrap-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <title>Wildsalon</title>
+
+</head>
+
+<body>
+
+    <!--Navigation-->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">LIONidas</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+              
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Nuestros servicios</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Pide Cita</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link disabled" href="#">FAQ</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link disabled" href="#">¿Quienes Somos?</a>
+                </li>
+            </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search ..." aria-label="Search">
+                </form>
+        </div>
+    </nav>
+
+    <!--SLIDE-->
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/melena.jpeg" class="d-block w-100" alt="leon melena">
+              </div>
+              <div class="carousel-item">
+                <img src="img/corte.jpeg" class="d-block w-100" alt="leon corte">
+              </div>
+              <div class="carousel-item">
+                <img src="img/tinte.jpeg" class="d-block w-100" alt="leon tinte">
+              </div>
+              <div class="carousel-item">
+                  <img src="img/descuento.jpeg" class="d-block w-100" alt="leon descuento">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          
+          <h1>Nuestros servicios</h1>
+
+          <div class="row">
+                <div class="col-lg-4 mb-4">
+                  <div class="card h-100">
+                    <h4 class="card-header navbar-dark bg-dark text-white">PEINADOS</h4>
+                    <div class="card-body">
+                      <p class="card-text">Realizamos lindos peinados para ocasiones especiales, época de apareamiento, cortejo y para la caza.</p>
+                    </div>
+                    <div class="card-footer">
+                      <a href="#" class="btn btn-primary">Saber más ...</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                  <div class="card h-100">
+                    <h4 class="card-header navbar-dark bg-dark text-white">CORTES</h4>
+                    <div class="card-body">
+                      <p class="card-text">Cortamos todo tipo de melenas, tanto a leones jovenes y vigorosos como a leones viejos y cascados.</p>
+                    </div>
+                    <div class="card-footer">
+                      <a href="#" class="btn btn-primary">Saber más ...</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                  <div class="card h-100">
+                    <h4 class="card-header navbar-dark bg-dark text-white">TINTES</h4>
+                    <div class="card-body">
+                      <p class="card-text">Y para los mas atrevidos llegan nuestros tintes, mechas o simplemente unos reflejos para no perder ese brillo en la melena.</p>
+                    </div>
+                    <div class="card-footer">
+                      <a href="#" class="btn btn-primary">Saber más ...</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+        <div class="separador"></div>
+
+        <h1>Pide Cita</h1>
+
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <form>
+                <div class="form-group">
+                  <label for="exampleInputName1">Nombre :</label>
+                  <input type="text" class="form-control" id="exampleInputName1" placeholder="Escriba su nombre">
+                 
+                </div>
+                <div class="form-group">
+                        <label for="exampleInputEmail1">Dirección de correos :</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Escriba su correo">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPhone1">Teléfono :</label>
+                  <input type="tel" class="form-control" id="exampleInputPhone1" placeholder="Indique su teléfono">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputFecha1">Fecha de la cita :</label>
+                  <input type="date" class="form-control" id="exampleInputFecha1" placeholder="Password">
+                </div>
+                <div class="form-group form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Estoy de acuerdo.</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </form>
+            </div>
+            <div class="col">
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Días</th>
+                    <th scope="col">Horario</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row"></th>
+                      <td>Lunes</td>
+                      <td>De 10 AM a 21 PM </td>
+                  </tr>
+                  <tr>
+                    <th scope="row"></th>
+                      <td>Martes</td>
+                      <td>De 10 AM a 21 PM</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"></th>
+                      <td>Miercoles</td>
+                      <td>De 10 AM a 21 PM</td>
+                  </tr>
+                  <tr>
+                  <th scope="row"></th>
+                      <td>Jueves</td>
+                      <td>De 10 AM a 21 PM</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"></th>
+                      <td>Viernes</td>
+                      <td>De 10 AM a 21 PM</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"></th>
+                        <td>Sábado</td>
+                        <td>De 10 AM a 17 PM</td>
+                    </tr>
+                    <tr>
+                      <th scope="row"></th>
+                          <td>Domingo</td>
+                          <td>Descanso</td>
+                      </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          </div>
+          <div class="separador"></div>
+
+          <h1>FAQ</h1>
+
+          <div class="accordion" id="accordionExample">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    ¿Qué pasa si se estropea mi melena?
+                  </button>
+                </h2>
+              </div>
+          
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                  En LIONidas contamos con grandes profesionales que se asegurarán de revivir tu melena con productos de muy alta calidad.
+                  Y si no quedas satisfecho siempre podrás comerte a nuestro profesional.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    ¿Qué hay que hacer para conseguir el descuento?
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                  Trae a tu manada contigo y seguro que se te aplicará el descuento. Cada tres machos un corte gratis!!
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h2 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    ¿Tengo qué pedir cita previa?
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                  Por supuesto que si, sobre todo para que nos comentes qué te gustaría retocar, peinar o tintar y preparar los materiales necesarios para la cita.
+                </div>
+              </div>
+            </div>
+          </div>
+
+<div class="separador"></div>
+
+<h1>¿Quienes Somos?</h1>
+
+<div class="text-center">
+  <h4>NUESTRA MISIÓN</h4>
+    <p>
+      Continuar ofreciendo a nuestros fieles y carnívoros consumidores productos de muy alta calidad para el cabello,
+      altas prestaciones y que satisfagan las necesidades específicas de cada tipo de pelo.
+    </p>
+  <h4>NUESTRA VISIÓN</h4>
+    <p>
+     Crecer en el mercado Africano, sobre todo en la regiones más cercanas a las Sabanas, todo para que nuestros usuarios
+     no tengan que recorrer grandes distancias para mantenerse la melena, cortarse las puntas o simplemente tintarse el pelo.
+    </p> 
+  <h4>NUESTROS VALORES</h4>
+     
+    <p>Calidad</p>
+    <p> Respeto al ambiente</p>
+    <p> Atención al cliente</p>
+    <p> Trabajo en equipo (sobre todo en equipo)</p>
+    <p> Innovación</p>
+    <p> Mejoras constantes</p>
+    <p> Honestidad</p>
+     
+    <h5><p>¡Gracias por confiar en LIONidas!</p></h5>
+</div>
+
+<footer class="navbar-dark bg-dark">
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="text-white text-center font-weight-light">
+      <h6>Contacto</h6>
+      <p>Empresa : LIONidas SL</p>
+      <p>Dirección : Avenida de los antílopes (cerca e la casa de SIMBA)</p>
+      <p>Teléfono : 666-666-666</p>
+      <p>Email : LIONidas@gmail.com</p>
+      </div>
+      
+</footer>
+        
+</body>
+</html>

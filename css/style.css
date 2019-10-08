@@ -1,0 +1,31 @@
+h1::after{
+    content: '';
+      display: block;
+      margin: auto;
+      width: 40rem;
+      height: 0.3rem;
+      background-color: black;
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+  }
+
+.separador{
+    content: '';
+      display: block;
+      margin: auto;
+      width: 90%;
+      height: 0.3rem;
+      background-color: black;
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+  }
+
+  footer{
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    margin-top: 1rem;
+  }
+ 
